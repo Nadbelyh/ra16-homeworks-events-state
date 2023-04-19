@@ -1,0 +1,11 @@
+.projects-list {
+    list-style-type: none;
+    padding: 0;
+    columns: 3;
+}
+
+.projects-item img {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+}

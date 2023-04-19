@@ -1,0 +1,26 @@
+.toolbar-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toolbar-item {
+    padding: 5px 10px;
+    color: #555555;
+    outline: 1px solid #555555;
+    cursor: pointer;
+}
+
+.toolbar-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.toolbar-item:hover {
+    outline-width: 2px;
+}
+
+.selected {
+    background-color: #555555;
+    color: #fff;
+}
